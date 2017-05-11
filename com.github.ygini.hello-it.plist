@@ -13,7 +13,7 @@
 				<string>Computer Information</string>
 			</dict>
 		</dict>
-		<dict>
+<!--		<dict>
 			<key>functionIdentifier</key>
 			<string>public.script.item</string>
 			<key>settings</key>
@@ -23,7 +23,7 @@
 				<key>title</key>
 				<string>Model</string>
 			</dict>
-		</dict>
+		</dict> -->
 		<dict>
 			<key>functionIdentifier</key>
 			<string>public.script.item</string>
@@ -199,7 +199,7 @@
 				<key>URL</key>
 				<string>http://wiki.someplace.com</string>
 				<key>title</key>
-				<string>someplace Wiki</string>
+				<string>Someplace Wiki</string>
 			</dict>
 		</dict>
 		<dict>
@@ -223,6 +223,6 @@
 		</dict>
 	</array>
 	<key>title</key>
-	<string>someplace IT</string>
+	<string>Hello IT</string>
 </dict>
 </plist>
