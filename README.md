@@ -1,6 +1,6 @@
 # Hello IT Implementation
 
-![Hello IT](https://github.com/PaperFixie/hello-it-implementation/blob/master/resources/hello-it-menus.png "Hello IT Screenshot")
+![Hello IT Example](https://github.com/PaperFixie/hello-it-implementation/blob/master/resources/hello-it-menus.png "Hello IT Screenshot")
 
 ## Scripts for Hello IT 1.2.9
 
