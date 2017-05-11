@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<array>
+		<dict>
+			<key>functionIdentifier</key>
+			<string>public.title</string>
+			<key>settings</key>
+			<dict>
+				<key>title</key>
+				<string>Computer Information</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>functionIdentifier</key>
+			<string>public.script.item</string>
+			<key>settings</key>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/com.github.ygini.hello-it/CustomScripts/model_info.sh</string>
+				<key>title</key>
+				<string>Model</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>functionIdentifier</key>
+			<string>public.script.item</string>
+			<key>settings</key>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/com.github.ygini.hello-it/CustomScripts/macOSversion.sh</string>
+				<key>title</key>
+				<string>macOSversion</string>
+			</dict>
+		</dict>
+		<dict>
+    <key>functionIdentifier</key>
+    <string>public.script.item</string>
+    <key>settings</key>
+      <dict>
+        <key>path</key>
+        <string>/Library/Application Support/com.github.ygini.hello-it/CustomScripts/capacity.sh</string>
+				<key>repeat</key>
+				<integer>60</integer>
+        <key>title</key>
+        <string>storagespace</string>
+      </dict>
+		</dict>
+		<dict>
+		<key>functionIdentifier</key>
+		<string>public.script.item</string>
+		<key>settings</key>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/com.github.ygini.hello-it/CustomScripts/filevault-stat.sh</string>
+				<key>repeat</key>
+				<integer>60</integer>
+				<key>title</key>
+				<string>FileVaultstatus</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>functionIdentifier</key>
+			<string>public.script.item</string>
+			<key>settings</key>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/com.github.ygini.hello-it/CustomScripts/memory_pressure.sh</string>
+				<key>repeat</key>
+				<integer>60</integer>
+				<key>title</key>
+				<string>Memory</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>functionIdentifier</key>
+			<string>public.submenu</string>
+			<key>settings</key>
+			<dict>
+				<key>content</key>
+				<array>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Application Support/com.github.ygini.hello-it/CustomScripts/eth_info.sh</string>
+							<key>repeat</key>
+							<integer>30</integer>
+							<key>title</key>
+							<string>updateTitleWithMainIP</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Application Support/com.github.ygini.hello-it/CustomScripts/wifi_info.sh</string>
+							<key>repeat</key>
+							<integer>30</integer>
+							<key>title</key>
+							<string>updateTitleWithMainIP</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.test.http</string>
+						<key>settings</key>
+						<dict>
+							<key>URL</key>
+							<string>https://raw.githubusercontent.com/ygini/Hello-IT/master/staticfiles/internet_test.txt</string>
+							<key>imageBaseName</key>
+							<string>network</string>
+							<key>mode</key>
+							<string>md5</string>
+							<key>originalString</key>
+							<string>ccf41dc8262810b99142b5627d27c25e</string>
+							<key>repeat</key>
+							<integer>60</integer>
+							<key>title</key>
+							<string>Internet</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Application Support/com.github.ygini.hello-it/CustomScripts/firewall.sh</string>
+							<key>repeat</key>
+							<integer>60</integer>
+							<key>title</key>
+							<string>updateTitlewithFirewallStatus</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.separator</string>
+					</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Application Support/com.github.ygini.hello-it/CustomScripts/uptime.sh</string>
+							<key>repeat</key>
+							<integer>30</integer>
+							<key>title</key>
+							<string>setTitleUptime</string>
+						</dict>
+					</dict>
+				</array>
+				<key>title</key>
+				<string>Network Status</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>functionIdentifier</key>
+			<string>public.separator</string>
+		</dict>
+			<dict>
+				<key>functionIdentifier</key>
+				<string>public.script.item</string>
+				<key>settings</key>
+				<dict>
+					<key>path</key>
+					<string>/Library/Application Support/com.github.ygini.hello-it/CustomScripts/softwareupdates.sh</string>
+					<key>repeat</key>
+					<integer>42300</integer>
+					<key>title</key>
+					<string>Checking for available updates...</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>functionIdentifier</key>
+				<string>public.separator</string>
+			</dict>
+			<dict>
+				<key>functionIdentifier</key>
+				<string>public.title</string>
+				<key>settings</key>
+				<dict>
+					<key>title</key>
+					<string>Helpful Links</string>
+				</dict>
+			</dict>
+		<dict>
+			<key>functionIdentifier</key>
+			<string>public.open.resource</string>
+			<key>settings</key>
+			<dict>
+				<key>URL</key>
+				<string>http://wiki.someplace.com</string>
+				<key>title</key>
+				<string>someplace Wiki</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>functionIdentifier</key>
+			<string>public.open.resource</string>
+			<key>settings</key>
+			<dict>
+				<key>URL</key>
+				<string>mailto:help@someplace.com</string>
+				<key>title</key>
+				<string>Email Desktop IT</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>functionIdentifier</key>
+			<string>public.separator</string>
+		</dict>
+		<dict>
+			<key>functionIdentifier</key>
+			<string>public.quit</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>someplace IT</string>
+</dict>
+</plist>
