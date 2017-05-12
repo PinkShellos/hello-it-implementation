@@ -1,5 +1,5 @@
 #!/bin/bash
-# Firewall Status script
+# Pending Updates Script for Managed Software Center
 ### The following line load the Hello IT bash script lib
 . "$HELLO_IT_SCRIPT_FOLDER/com.github.ygini.hello-it.scriptlib.sh"
 
@@ -25,13 +25,8 @@ function fromCronAction {
 }
 
 function setTitleAction {
-    if [ "$(defaults read /Library/Preferences/com.apple.alf globalstate 2> /dev/null)" ]; then
-    updateTitle "Firewall is OFF"
-    updateState "${STATE[1]}"
-  else
-    updateTitle "Firewall is ON"
-    updateState "${STATE[0]}"
-  fi
+  echo "Change the title :)"
+  updateTitle "Change me!"
 }
 
 ### The only things to do outside of a bash function is to call the main function defined by the Hello IT bash lib.
